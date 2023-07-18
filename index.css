@@ -1,0 +1,67 @@
+html{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(165, 45, 45), rgb(230, 181, 169));
+
+}
+
+
+h1 {
+text-align: center;
+color: wheat;
+font-weight: bold;
+font-size: 90px;
+font-family: Luminari;
+text-decoration:underline;
+text-decoration-color: white;
+
+}
+
+#chef{
+border-style: solid;
+border-color: black;
+display:block;
+margin: auto;
+border-radius: 20px;
+
+}
+
+#tacos,#eggs,#potato,#hotDog{
+    width: 400px;
+    height: 250px;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+#tacos{
+    position:absolute;
+    top:50px;
+    right: 10px;
+}
+
+#eggs{
+    position:absolute;
+    bottom:50px;
+    right: 10px;
+}
+#potato{
+    position:absolute;
+    top:50px;
+    left: 10px;
+}
+
+#hotDog{
+    position:absolute;
+    bottom:50px;
+    left: 10px;
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: Luminari;
+    color: black;
+    
+    
+}
