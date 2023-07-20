@@ -1,0 +1,105 @@
+html{
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgb(165, 45, 45), rgb(54, 31, 25));
+
+}
+
+h1{
+    font-family:chalkduster;
+    font-size: 60px;
+    text-align: center;
+}
+img{
+    border-style: solid;
+border-color: black;
+display:block;
+margin: auto;
+border-radius: 20px;
+}
+img:hover{
+    transform: scale(1.06);
+transition: 1s;
+}
+#ingredients{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    left:20px;
+    bottom:60px;
+
+}
+
+#instructions{
+    position: absolute;
+    width: 850px;
+    height: 370px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    right:20px;
+    bottom:10px;
+
+}
+
+#ingredientTitle{
+    position:absolute;
+    font-family: chalkduster;
+    bottom:180px;
+    left:140px;
+    font-size: 50px;
+    color:red;
+    text-decoration: dashed;
+    text-decoration-line:underline;
+    text-decoration-color: black;
+
+}
+
+ul{
+    position:absolute;
+    line-height: 35px;
+    font-family: chalkduster;
+    left:20px;
+    bottom: 20px;
+    font-size: 20px;
+    color:white;
+    
+}
+
+#instructionTitle{
+    position:absolute;
+    font-family: chalkduster;
+    bottom:250px;
+    right:240px;
+    font-size: 50px;
+    color:red;
+    text-decoration: dashed;
+    text-decoration-line:underline;
+    text-decoration-color: black;
+
+}
+
+ol{
+    position:absolute;
+    line-height: 35px;
+    font-family: chalkduster;
+    left:-5px;
+    bottom: 5px;
+    font-size: 13px;
+    color:white;
+    
+}
+
+#menu{
+    position: absolute;
+    top:20px;
+    left:10px;
+    background-color: black;
+    width:220px;
+    height:60px;
+    border-radius: 200px;
+    text-align:center;
+    font-size: 20px;
+    font-family: chalkduster;
+    color:white;
+}
